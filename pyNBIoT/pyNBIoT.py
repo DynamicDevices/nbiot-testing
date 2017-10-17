@@ -71,7 +71,7 @@ def do_vodafone_ack_test(port):
 
     time.sleep(1)
     
-    print('Receiving')
+  print('Receiving')
 
     success = write_data_wait_response(port, b'AT+NSORF=0,3')
 
